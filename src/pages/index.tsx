@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="text-center bg-[#f8f4f1]">
+    <div className="text-center bg-[#f9f5f3]"> {/* Color nude más armónico */}
 
       {/* Logo escrito MARÉ */}
       <h1 className="text-6xl md:text-7xl font-semibold tracking-widest pt-6 text-[#7c5c47]">
@@ -31,7 +31,7 @@ export default function Home() {
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
           autoPlay
-          loop   // <-- esta línea fue restaurada
+          loop
           muted
         />
       </div>
