@@ -20,17 +20,8 @@ export default function Home() {
   return (
     <div className="text-center">
 
-      {/* Botonera funcional centrada */}
-      <div className="flex justify-center gap-4 py-4 flex-wrap">
-        <a href="#inicio" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Inicio</a>
-        <a href="#sobre-nosotros" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Sobre Nosotros</a>
-        <a href="#productos" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Productos</a>
-        <a href="#tips" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Tips & Estilo</a>
-        <a href="#contacto" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Contacto</a>
-      </div>
-
       {/* Logo destacado */}
-      <h1 className="text-5xl md:text-6xl font-semibold mt-2 text-[#7c5c47]">MARÉ</h1>
+      <h1 className="text-5xl md:text-6xl font-semibold mt-4 text-[#7c5c47]">MARÉ</h1>
 
       {/* Video de fondo */}
       <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-4">
