@@ -1,0 +1,450 @@
+[
+  {
+    "codigo": "PASH5016",
+    "nombre": "Pashminas",
+    "descripcion": "Pashminas",
+    "categoria": "Textil",
+    "medidas": "70 x 190cm",
+    "precio": 245.0,
+    "imagenes": [
+      "imagenes/PASH5016 1.jpg",
+      "imagenes/PASH5016 2.jpg",
+      "imagenes/PASH5016 3.jpg",
+      "imagenes/PASH5016 4.jpg",
+      "imagenes/PASH5016 5.jpg",
+      "imagenes/PASH5016 6.jpg",
+      "imagenes/PASH5016 7.jpg",
+      "imagenes/PASH5016 8.jpg",
+      "imagenes/PASH5016 9.jpg",
+      "imagenes/PASH5016 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Nude",
+      "Verde",
+      "Salmon",
+      "Mostaza"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "LB233",
+    "nombre": "Bolsos",
+    "descripcion": "Bolsos",
+    "categoria": "Marroquineria",
+    "medidas": "32 x 13 x 34cm",
+    "precio": 790.0,
+    "imagenes": [
+      "imagenes/LB233 1.jpg",
+      "imagenes/LB233 2.jpg",
+      "imagenes/LB233 3.jpg",
+      "imagenes/LB233 4.jpg",
+      "imagenes/LB233 5.jpg",
+      "imagenes/LB233 6.jpg",
+      "imagenes/LB233 7.jpg",
+      "imagenes/LB233 8.jpg",
+      "imagenes/LB233 9.jpg",
+      "imagenes/LB233 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Lila",
+      "Rosado",
+      "Bordeaux"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "LB270",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "22x13x22cm",
+    "precio": 650.0,
+    "imagenes": [
+      "imagenes/LB270 1.jpg",
+      "imagenes/LB270 2.jpg",
+      "imagenes/LB270 3.jpg",
+      "imagenes/LB270 4.jpg",
+      "imagenes/LB270 5.jpg",
+      "imagenes/LB270 6.jpg",
+      "imagenes/LB270 7.jpg",
+      "imagenes/LB270 8.jpg",
+      "imagenes/LB270 9.jpg",
+      "imagenes/LB270 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Rojo",
+      "Rosa Viejo",
+      "Petroleo",
+      "Azul",
+      "Mostaza"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "24002",
+    "nombre": "Set caravanas",
+    "descripcion": "Set caravanas de acero",
+    "categoria": "Caravanas acero",
+    "medidas": "nan",
+    "precio": 79.0,
+    "imagenes": [
+      "imagenes/24002 1.jpg",
+      "imagenes/24002 2.jpg",
+      "imagenes/24002 3.jpg",
+      "imagenes/24002 4.jpg",
+      "imagenes/24002 5.jpg",
+      "imagenes/24002 6.jpg",
+      "imagenes/24002 7.jpg",
+      "imagenes/24002 8.jpg",
+      "imagenes/24002 9.jpg",
+      "imagenes/24002 10.jpg"
+    ],
+    "colores": [],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "BL5632",
+    "nombre": "Bolsos",
+    "descripcion": "Bolsos",
+    "categoria": "Marroquineria",
+    "medidas": "nan",
+    "precio": 650.0,
+    "imagenes": [
+      "imagenes/BL5632 1.jpg",
+      "imagenes/BL5632 2.jpg",
+      "imagenes/BL5632 3.jpg",
+      "imagenes/BL5632 4.jpg",
+      "imagenes/BL5632 5.jpg",
+      "imagenes/BL5632 6.jpg",
+      "imagenes/BL5632 7.jpg",
+      "imagenes/BL5632 8.jpg",
+      "imagenes/BL5632 9.jpg",
+      "imagenes/BL5632 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Verde",
+      "Gris",
+      "Rojo",
+      "Azul"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "HC100336",
+    "nombre": "Set x 3 pinzas",
+    "descripcion": "Set x 3 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "nan",
+    "precio": 45.0,
+    "imagenes": [
+      "imagenes/HC100336 1.jpg",
+      "imagenes/HC100336 2.jpg",
+      "imagenes/HC100336 3.jpg",
+      "imagenes/HC100336 4.jpg",
+      "imagenes/HC100336 5.jpg",
+      "imagenes/HC100336 6.jpg",
+      "imagenes/HC100336 7.jpg",
+      "imagenes/HC100336 8.jpg",
+      "imagenes/HC100336 9.jpg",
+      "imagenes/HC100336 10.jpg"
+    ],
+    "colores": [],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "HC100391",
+    "nombre": "Set coleros x2",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "nan",
+    "precio": 45.0,
+    "imagenes": [
+      "imagenes/HC100391 1.jpg",
+      "imagenes/HC100391 2.jpg",
+      "imagenes/HC100391 3.jpg",
+      "imagenes/HC100391 4.jpg",
+      "imagenes/HC100391 5.jpg",
+      "imagenes/HC100391 6.jpg",
+      "imagenes/HC100391 7.jpg",
+      "imagenes/HC100391 8.jpg",
+      "imagenes/HC100391 9.jpg",
+      "imagenes/HC100391 10.jpg"
+    ],
+    "colores": [],
+    "variantes": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "B125",
+    "nombre": "Set coleros x2",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "nan",
+    "precio": 26.0,
+    "imagenes": [
+      "imagenes/B125 1.jpg",
+      "imagenes/B125 2.jpg",
+      "imagenes/B125 3.jpg",
+      "imagenes/B125 4.jpg",
+      "imagenes/B125 5.jpg",
+      "imagenes/B125 6.jpg",
+      "imagenes/B125 7.jpg",
+      "imagenes/B125 8.jpg",
+      "imagenes/B125 9.jpg",
+      "imagenes/B125 10.jpg"
+    ],
+    "colores": [],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "2002",
+    "nombre": "Bolsito infantil",
+    "descripcion": "Bolsito infantil",
+    "categoria": "Marroquineria",
+    "medidas": "26 x 26cm",
+    "precio": 425.0,
+    "imagenes": [
+      "imagenes/2002 1.jpg",
+      "imagenes/2002 2.jpg",
+      "imagenes/2002 3.jpg",
+      "imagenes/2002 4.jpg",
+      "imagenes/2002 5.jpg",
+      "imagenes/2002 6.jpg",
+      "imagenes/2002 7.jpg",
+      "imagenes/2002 8.jpg",
+      "imagenes/2002 9.jpg",
+      "imagenes/2002 10.jpg"
+    ],
+    "colores": [
+      "Varios colores",
+      "Lila",
+      "Rosado"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "CBB009",
+    "nombre": "Bolsito infantil",
+    "descripcion": "Bolsito infantil",
+    "categoria": "Marroquineria",
+    "medidas": "10 X 4 X  13CM",
+    "precio": 185.0,
+    "imagenes": [
+      "imagenes/CBB009 1.jpg",
+      "imagenes/CBB009 2.jpg",
+      "imagenes/CBB009 3.jpg",
+      "imagenes/CBB009 4.jpg",
+      "imagenes/CBB009 5.jpg",
+      "imagenes/CBB009 6.jpg",
+      "imagenes/CBB009 7.jpg",
+      "imagenes/CBB009 8.jpg",
+      "imagenes/CBB009 9.jpg",
+      "imagenes/CBB009 10.jpg"
+    ],
+    "colores": [
+      "Blanco",
+      "Lila",
+      "Rosado",
+      "Rojo"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "B1102",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "20 x 10 x 4cm",
+    "precio": 290.0,
+    "imagenes": [
+      "imagenes/B1102 1.jpg",
+      "imagenes/B1102 2.jpg",
+      "imagenes/B1102 3.jpg",
+      "imagenes/B1102 4.jpg",
+      "imagenes/B1102 5.jpg",
+      "imagenes/B1102 6.jpg",
+      "imagenes/B1102 7.jpg",
+      "imagenes/B1102 8.jpg",
+      "imagenes/B1102 9.jpg",
+      "imagenes/B1102 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Celeste",
+      "Beige",
+      "Bordeaux",
+      "Rosa Viejo"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "B11015",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "16 X 20 X 12CM",
+    "precio": 395.0,
+    "imagenes": [
+      "imagenes/B11015 1.jpg",
+      "imagenes/B11015 2.jpg",
+      "imagenes/B11015 3.jpg",
+      "imagenes/B11015 4.jpg",
+      "imagenes/B11015 5.jpg",
+      "imagenes/B11015 6.jpg",
+      "imagenes/B11015 7.jpg",
+      "imagenes/B11015 8.jpg",
+      "imagenes/B11015 9.jpg",
+      "imagenes/B11015 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Nude",
+      "Amarillo",
+      "Rosado",
+      "Bordeaux"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "FN5005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "17 X 11 X 5CM",
+    "precio": 380.0,
+    "imagenes": [
+      "imagenes/FN5005 1.jpg",
+      "imagenes/FN5005 2.jpg",
+      "imagenes/FN5005 3.jpg",
+      "imagenes/FN5005 4.jpg",
+      "imagenes/FN5005 5.jpg",
+      "imagenes/FN5005 6.jpg",
+      "imagenes/FN5005 7.jpg",
+      "imagenes/FN5005 8.jpg",
+      "imagenes/FN5005 9.jpg",
+      "imagenes/FN5005 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Rosado",
+      "Beige",
+      "Petroleo",
+      "Azul"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "LB5005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "20 X 14 X 7CM",
+    "precio": 395.0,
+    "imagenes": [
+      "imagenes/LB5005 1.jpg",
+      "imagenes/LB5005 2.jpg",
+      "imagenes/LB5005 3.jpg",
+      "imagenes/LB5005 4.jpg",
+      "imagenes/LB5005 5.jpg",
+      "imagenes/LB5005 6.jpg",
+      "imagenes/LB5005 7.jpg",
+      "imagenes/LB5005 8.jpg",
+      "imagenes/LB5005 9.jpg",
+      "imagenes/LB5005 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Lila",
+      "Celeste",
+      "Gris",
+      "Rojo"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "B1003",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "nan",
+    "precio": 395.0,
+    "imagenes": [
+      "imagenes/B1003 1.jpg",
+      "imagenes/B1003 2.jpg",
+      "imagenes/B1003 3.jpg",
+      "imagenes/B1003 4.jpg",
+      "imagenes/B1003 5.jpg",
+      "imagenes/B1003 6.jpg",
+      "imagenes/B1003 7.jpg",
+      "imagenes/B1003 8.jpg",
+      "imagenes/B1003 9.jpg",
+      "imagenes/B1003 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Nude",
+      "Celeste",
+      "Fucsia",
+      "Terracota",
+      "Verde Agua"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  },
+  {
+    "codigo": "LB251",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "17 X 15 X 11CM",
+    "precio": 395.0,
+    "imagenes": [
+      "imagenes/LB251 1.jpg",
+      "imagenes/LB251 2.jpg",
+      "imagenes/LB251 3.jpg",
+      "imagenes/LB251 4.jpg",
+      "imagenes/LB251 5.jpg",
+      "imagenes/LB251 6.jpg",
+      "imagenes/LB251 7.jpg",
+      "imagenes/LB251 8.jpg",
+      "imagenes/LB251 9.jpg",
+      "imagenes/LB251 10.jpg"
+    ],
+    "colores": [
+      "Negro",
+      "Nude",
+      "Celeste",
+      "Rosado",
+      "Gris",
+      "Terracota",
+      "Azul"
+    ],
+    "variantes": [],
+    "permitirSurtido": false
+  }
+]
