@@ -13,18 +13,15 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % carruselImages.length);
-    }, 5000);
+    }, 5000); // cambia cada 5 segundos
+
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="text-center font-playfair bg-fondo min-h-screen text-texto">
-
-      {/* Menú original - NO se toca */}
-      {/* Este bloque queda tal como está en tu layout, para no romper navegación */}
-
+    <div className="text-center bg-fondo text-texto">
       {/* Video de fondo */}
-      <div className="relative w-full h-[45vh] md:h-[60vh] overflow-hidden">
+      <div className="relative w-full aspect-video overflow-hidden">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -32,26 +29,24 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-texto text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-widest drop-shadow-md">MARÉ</h1>
-          <p className="mt-2 text-xl md:text-3xl font-medium">Tu estilo en cada detalle</p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
+          <h1 className="text-5xl md:text-7xl font-bold">MARÉ</h1>
+          <p className="text-lg md:text-2xl mt-2">Tu estilo en cada detalle</p>
         </div>
       </div>
 
       {/* Carrusel de Destacados */}
-      <section className="py-12 md:py-16 px-4" id="destacados">
-        <h2 className="text-3xl md:text-5xl font-bold tracking-wide mb-10">DESTACADOS</h2>
-        <div className="relative w-full max-w-6xl h-[320px] md:h-[440px] mx-auto rounded overflow-hidden shadow-md">
+      <div className="px-4 pt-16 pb-8">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8">DESTACADOS</h2>
+        <div className="relative w-full max-w-5xl mx-auto aspect-video rounded overflow-hidden">
           <Image
             src={carruselImages[currentImage]}
             alt={`Slide ${currentImage + 1}`}
-            fill
-            className="object-contain"
-            sizes="(max-width: 768px) 100vw, 50vw"
-            priority
+            layout="fill"
+            objectFit="cover"
           />
         </div>
-      </section>
+      </div>
     </div>
   );
 }
