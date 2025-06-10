@@ -38,12 +38,13 @@ export default function Home() {
       {/* Carrusel de Destacados */}
       <div className="p-4">
         <h2 className="text-2xl mb-4">Destacados</h2>
-        <div className="relative w-full h-96 rounded overflow-hidden">
+        <div className="relative w-full flex justify-center items-center h-[500px]">
           <Image
             src={carruselImages[currentImage]}
             alt={`Slide ${currentImage + 1}`}
-            layout="fill"
-            objectFit="cover"
+            width={800}
+            height={500}
+            className="rounded shadow-md object-contain"
           />
         </div>
       </div>
