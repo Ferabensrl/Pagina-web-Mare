@@ -1,12 +1,26 @@
+'use client';
+
 import Image from 'next/image';
-import fs from 'fs';
-import path from 'path';
+import { useEffect, useState } from 'react';
 import contenido from '../data/contenido_web.json';
 
 export default function Home() {
   const destacados = (contenido as any[]).filter(c => c.destacado);
+
+  const carruselImages = ['/carrusel/1.jpg', '/carrusel/2.jpg', '/carrusel/3.jpg'];
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % carruselImages.length);
+    }, 5000); // cambia cada 5 segundos
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="text-center">
+      {/* Video de fondo */}
       <div className="relative w-full h-96 overflow-hidden">
         <video
           className="object-cover w-full h-full"
@@ -20,16 +34,17 @@ export default function Home() {
           <p>Tu estilo en cada detalle</p>
         </div>
       </div>
+
+      {/* Carrusel de Destacados */}
       <div className="p-4">
         <h2 className="text-2xl mb-4">Destacados</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {destacados.map((d, i) => (
-            <div key={i} className="border p-2 rounded">
-              <Image src={`/${d.imagen}`} alt={d.titulo} width={300} height={200} className="mx-auto" />
-              <h3 className="mt-2">{d.titulo}</h3>
-              <p>{d.texto}</p>
-            </div>
-          ))}
+        <div className="relative w-full h-96 rounded overflow-hidden">
+          <Image
+            src={carruselImages[currentImage]}
+            alt={`Slide ${currentImage + 1}`}
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
       </div>
     </div>
