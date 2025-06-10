@@ -1,34 +1,5 @@
 [
   {
-    "codigo": "PASH5016",
-    "nombre": "Pashminas",
-    "descripcion": "Pashminas",
-    "categoria": "Textil",
-    "medidas": "70 x 190cm",
-    "precio": 245.0,
-    "imagenes": [
-      "imagenes/PASH5016 1.jpg",
-      "imagenes/PASH5016 2.jpg",
-      "imagenes/PASH5016 3.jpg",
-      "imagenes/PASH5016 4.jpg",
-      "imagenes/PASH5016 5.jpg",
-      "imagenes/PASH5016 6.jpg",
-      "imagenes/PASH5016 7.jpg",
-      "imagenes/PASH5016 8.jpg",
-      "imagenes/PASH5016 9.jpg",
-      "imagenes/PASH5016 10.jpg"
-    ],
-    "colores": [
-      "Negro",
-      "Nude",
-      "Verde",
-      "Salmon",
-      "Mostaza"
-    ],
-    "variantes": [],
-    "permitirSurtido": false
-  },
-  {
     "codigo": "LB233",
     "nombre": "Bolsos",
     "descripcion": "Bolsos",
@@ -40,12 +11,7 @@
       "imagenes/LB233 2.jpg",
       "imagenes/LB233 3.jpg",
       "imagenes/LB233 4.jpg",
-      "imagenes/LB233 5.jpg",
-      "imagenes/LB233 6.jpg",
-      "imagenes/LB233 7.jpg",
-      "imagenes/LB233 8.jpg",
-      "imagenes/LB233 9.jpg",
-      "imagenes/LB233 10.jpg"
+      "imagenes/LB233 5.jpg"
     ],
     "colores": [
       "Negro",
@@ -54,7 +20,7 @@
       "Bordeaux"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "LB270",
@@ -67,13 +33,7 @@
       "imagenes/LB270 1.jpg",
       "imagenes/LB270 2.jpg",
       "imagenes/LB270 3.jpg",
-      "imagenes/LB270 4.jpg",
-      "imagenes/LB270 5.jpg",
-      "imagenes/LB270 6.jpg",
-      "imagenes/LB270 7.jpg",
-      "imagenes/LB270 8.jpg",
-      "imagenes/LB270 9.jpg",
-      "imagenes/LB270 10.jpg"
+      "imagenes/LB270 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -94,39 +54,26 @@
     "medidas": "nan",
     "precio": 79.0,
     "imagenes": [
-      "imagenes/24002 1.jpg",
-      "imagenes/24002 2.jpg",
-      "imagenes/24002 3.jpg",
-      "imagenes/24002 4.jpg",
-      "imagenes/24002 5.jpg",
-      "imagenes/24002 6.jpg",
-      "imagenes/24002 7.jpg",
-      "imagenes/24002 8.jpg",
-      "imagenes/24002 9.jpg",
-      "imagenes/24002 10.jpg"
+      "imagenes/24002 1.jpg"
     ],
     "colores": [],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
-    "codigo": "BL5632",
+    "codigo": "LB5632",
     "nombre": "Bolsos",
     "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "nan",
     "precio": 650.0,
     "imagenes": [
-      "imagenes/BL5632 1.jpg",
-      "imagenes/BL5632 2.jpg",
-      "imagenes/BL5632 3.jpg",
-      "imagenes/BL5632 4.jpg",
-      "imagenes/BL5632 5.jpg",
-      "imagenes/BL5632 6.jpg",
-      "imagenes/BL5632 7.jpg",
-      "imagenes/BL5632 8.jpg",
-      "imagenes/BL5632 9.jpg",
-      "imagenes/BL5632 10.jpg"
+      "imagenes/LB5632 1.jpg",
+      "imagenes/LB5632 2.jpg",
+      "imagenes/LB5632 3.jpg",
+      "imagenes/LB5632 4.jpg",
+      "imagenes/LB5632 5.jpg",
+      "imagenes/LB5632 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -136,7 +83,7 @@
       "Azul"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "HC100336",
@@ -146,16 +93,7 @@
     "medidas": "nan",
     "precio": 45.0,
     "imagenes": [
-      "imagenes/HC100336 1.jpg",
-      "imagenes/HC100336 2.jpg",
-      "imagenes/HC100336 3.jpg",
-      "imagenes/HC100336 4.jpg",
-      "imagenes/HC100336 5.jpg",
-      "imagenes/HC100336 6.jpg",
-      "imagenes/HC100336 7.jpg",
-      "imagenes/HC100336 8.jpg",
-      "imagenes/HC100336 9.jpg",
-      "imagenes/HC100336 10.jpg"
+      "imagenes/100336 1.jpg"
     ],
     "colores": [],
     "variantes": [],
@@ -169,16 +107,7 @@
     "medidas": "nan",
     "precio": 45.0,
     "imagenes": [
-      "imagenes/HC100391 1.jpg",
-      "imagenes/HC100391 2.jpg",
-      "imagenes/HC100391 3.jpg",
-      "imagenes/HC100391 4.jpg",
-      "imagenes/HC100391 5.jpg",
-      "imagenes/HC100391 6.jpg",
-      "imagenes/HC100391 7.jpg",
-      "imagenes/HC100391 8.jpg",
-      "imagenes/HC100391 9.jpg",
-      "imagenes/HC100391 10.jpg"
+      "imagenes/100391 1.jpg"
     ],
     "colores": [],
     "variantes": [
@@ -190,7 +119,7 @@
       "C6",
       "C7"
     ],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "B125",
@@ -201,15 +130,7 @@
     "precio": 26.0,
     "imagenes": [
       "imagenes/B125 1.jpg",
-      "imagenes/B125 2.jpg",
-      "imagenes/B125 3.jpg",
-      "imagenes/B125 4.jpg",
-      "imagenes/B125 5.jpg",
-      "imagenes/B125 6.jpg",
-      "imagenes/B125 7.jpg",
-      "imagenes/B125 8.jpg",
-      "imagenes/B125 9.jpg",
-      "imagenes/B125 10.jpg"
+      "imagenes/B125 2.jpg"
     ],
     "colores": [],
     "variantes": [],
@@ -228,11 +149,7 @@
       "imagenes/2002 3.jpg",
       "imagenes/2002 4.jpg",
       "imagenes/2002 5.jpg",
-      "imagenes/2002 6.jpg",
-      "imagenes/2002 7.jpg",
-      "imagenes/2002 8.jpg",
-      "imagenes/2002 9.jpg",
-      "imagenes/2002 10.jpg"
+      "imagenes/2002 VARIANTES.jpg"
     ],
     "colores": [
       "Varios colores",
@@ -240,7 +157,7 @@
       "Rosado"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "CBB009",
@@ -251,15 +168,7 @@
     "precio": 185.0,
     "imagenes": [
       "imagenes/CBB009 1.jpg",
-      "imagenes/CBB009 2.jpg",
-      "imagenes/CBB009 3.jpg",
-      "imagenes/CBB009 4.jpg",
-      "imagenes/CBB009 5.jpg",
-      "imagenes/CBB009 6.jpg",
-      "imagenes/CBB009 7.jpg",
-      "imagenes/CBB009 8.jpg",
-      "imagenes/CBB009 9.jpg",
-      "imagenes/CBB009 10.jpg"
+      "imagenes/CBB009 2.jpg"
     ],
     "colores": [
       "Blanco",
@@ -268,7 +177,7 @@
       "Rojo"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "B1102",
@@ -280,14 +189,7 @@
     "imagenes": [
       "imagenes/B1102 1.jpg",
       "imagenes/B1102 2.jpg",
-      "imagenes/B1102 3.jpg",
-      "imagenes/B1102 4.jpg",
-      "imagenes/B1102 5.jpg",
-      "imagenes/B1102 6.jpg",
-      "imagenes/B1102 7.jpg",
-      "imagenes/B1102 8.jpg",
-      "imagenes/B1102 9.jpg",
-      "imagenes/B1102 10.jpg"
+      "imagenes/B1102 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -297,7 +199,7 @@
       "Rosa Viejo"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "B11015",
@@ -310,13 +212,7 @@
       "imagenes/B11015 1.jpg",
       "imagenes/B11015 2.jpg",
       "imagenes/B11015 3.jpg",
-      "imagenes/B11015 4.jpg",
-      "imagenes/B11015 5.jpg",
-      "imagenes/B11015 6.jpg",
-      "imagenes/B11015 7.jpg",
-      "imagenes/B11015 8.jpg",
-      "imagenes/B11015 9.jpg",
-      "imagenes/B11015 10.jpg"
+      "imagenes/B11015 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -326,7 +222,7 @@
       "Bordeaux"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "FN5005",
@@ -339,13 +235,7 @@
       "imagenes/FN5005 1.jpg",
       "imagenes/FN5005 2.jpg",
       "imagenes/FN5005 3.jpg",
-      "imagenes/FN5005 4.jpg",
-      "imagenes/FN5005 5.jpg",
-      "imagenes/FN5005 6.jpg",
-      "imagenes/FN5005 7.jpg",
-      "imagenes/FN5005 8.jpg",
-      "imagenes/FN5005 9.jpg",
-      "imagenes/FN5005 10.jpg"
+      "imagenes/FN5005 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -355,7 +245,7 @@
       "Azul"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "LB5005",
@@ -366,15 +256,7 @@
     "precio": 395.0,
     "imagenes": [
       "imagenes/LB5005 1.jpg",
-      "imagenes/LB5005 2.jpg",
-      "imagenes/LB5005 3.jpg",
-      "imagenes/LB5005 4.jpg",
-      "imagenes/LB5005 5.jpg",
-      "imagenes/LB5005 6.jpg",
-      "imagenes/LB5005 7.jpg",
-      "imagenes/LB5005 8.jpg",
-      "imagenes/LB5005 9.jpg",
-      "imagenes/LB5005 10.jpg"
+      "imagenes/LB5005 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -384,7 +266,7 @@
       "Rojo"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "B1003",
@@ -398,12 +280,7 @@
       "imagenes/B1003 2.jpg",
       "imagenes/B1003 3.jpg",
       "imagenes/B1003 4.jpg",
-      "imagenes/B1003 5.jpg",
-      "imagenes/B1003 6.jpg",
-      "imagenes/B1003 7.jpg",
-      "imagenes/B1003 8.jpg",
-      "imagenes/B1003 9.jpg",
-      "imagenes/B1003 10.jpg"
+      "imagenes/B1003 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -414,7 +291,7 @@
       "Verde Agua"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   },
   {
     "codigo": "LB251",
@@ -428,12 +305,7 @@
       "imagenes/LB251 2.jpg",
       "imagenes/LB251 3.jpg",
       "imagenes/LB251 4.jpg",
-      "imagenes/LB251 5.jpg",
-      "imagenes/LB251 6.jpg",
-      "imagenes/LB251 7.jpg",
-      "imagenes/LB251 8.jpg",
-      "imagenes/LB251 9.jpg",
-      "imagenes/LB251 10.jpg"
+      "imagenes/LB251 VARIANTES.jpg"
     ],
     "colores": [
       "Negro",
@@ -445,6 +317,6 @@
       "Azul"
     ],
     "variantes": [],
-    "permitirSurtido": false
+    "permitirSurtido": true
   }
 ]
