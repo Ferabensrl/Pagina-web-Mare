@@ -21,17 +21,17 @@ export default function Home() {
     <div className="text-center">
 
       {/* Logo PNG de MARÉ */}
-      <div className="w-full flex justify-center my-2">
+      <div className="w-full flex justify-center pt-6">
         <Image
-          src="/logo-mare.png"
+          src="/logo-mare.png" // Asegurate que esté en la carpeta "public"
           alt="MARÉ Logo"
-          width={320}
-          height={100}
+          width={200}
+          height={80}
         />
       </div>
 
       {/* Video de fondo */}
-      <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden">
+      <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-4">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -41,8 +41,8 @@ export default function Home() {
         />
       </div>
 
-      {/* Frase institucional */}
-      <div className="text-xl md:text-3xl text-texto mt-4 mb-8">
+      {/* Frase institucional debajo del video */}
+      <div className="mt-6 text-2xl md:text-4xl text-texto">
         Tu estilo en cada detalle
       </div>
 
