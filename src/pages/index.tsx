@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import contenido from '../data/contenido_web.json';
 
@@ -19,28 +18,22 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="text-center bg-fondo text-texto min-h-screen">
+    <div className="text-center">
 
-      {/* MENÚ SUPERIOR */}
-      <nav className="w-full py-4 px-4 flex justify-center flex-wrap gap-3 md:gap-6">
-        {['Inicio', 'Sobre Nosotros', 'Productos', 'Tips & Estilo', 'Contacto'].map((item) => (
-          <Link
-            key={item}
-            href="#"
-            className="text-sm md:text-lg px-3 py-1 rounded-full border border-texto hover:bg-texto hover:text-fondo transition"
-          >
-            {item}
-          </Link>
-        ))}
-      </nav>
-
-      {/* LOGO MARÉ */}
-      <div className="pt-4 md:pt-10">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-wide">MARÉ</h1>
+      {/* Botonera funcional centrada */}
+      <div className="flex justify-center gap-4 py-4 flex-wrap">
+        <a href="#inicio" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Inicio</a>
+        <a href="#sobre-nosotros" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Sobre Nosotros</a>
+        <a href="#productos" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Productos</a>
+        <a href="#tips" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Tips & Estilo</a>
+        <a href="#contacto" className="border px-4 py-2 rounded-full text-sm md:text-base hover:bg-[#e0d0bd] transition">Contacto</a>
       </div>
 
-      {/* VIDEO */}
-      <div className="relative w-full aspect-video overflow-hidden mt-6">
+      {/* Logo destacado */}
+      <h1 className="text-5xl md:text-6xl font-semibold mt-2 text-[#7c5c47]">MARÉ</h1>
+
+      {/* Video de fondo */}
+      <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-4">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -48,17 +41,15 @@ export default function Home() {
           loop
           muted
         />
+        <div className="absolute inset-0 flex items-center justify-center text-2xl md:text-4xl text-texto">
+          Tu estilo en cada detalle
+        </div>
       </div>
 
-      {/* FRASE */}
-      <div className="mt-6 px-4">
-        <p className="text-lg md:text-2xl">Tu estilo en cada detalle</p>
-      </div>
-
-      {/* DESTACADOS */}
-      <div className="px-4 pt-16 pb-8">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">DESTACADOS</h2>
-        <div className="relative w-full max-w-5xl mx-auto aspect-video rounded overflow-hidden">
+      {/* Carrusel de Destacados */}
+      <div className="py-12">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6">DESTACADOS</h2>
+        <div className="relative w-full max-w-[1024px] mx-auto h-[300px] md:h-[500px] rounded overflow-hidden">
           <Image
             src={carruselImages[currentImage]}
             alt={`Slide ${currentImage + 1}`}
