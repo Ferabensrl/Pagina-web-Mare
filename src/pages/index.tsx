@@ -32,9 +32,11 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex items-center justify-center text-2xl md:text-4xl text-texto">
-          Tu estilo en cada detalle
-        </div>
+      </div>
+
+      {/* Frase institucional debajo del video */}
+      <div className="mt-6 text-2xl md:text-4xl text-texto">
+        Tu estilo en cada detalle
       </div>
 
       {/* Carrusel de Destacados */}
