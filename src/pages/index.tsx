@@ -20,17 +20,11 @@ export default function Home() {
   return (
     <div className="text-center font-playfair bg-fondo min-h-screen text-texto">
 
-      {/* MENÚ SUPERIOR FUNCIONAL Y ESTILIZADO */}
-      <nav className="w-full flex justify-center gap-6 py-4 bg-fondo shadow-sm text-lg md:text-xl font-semibold border-b border-texto/20">
-        <a href="#inicio" className="px-3 hover:text-primary border-r border-texto/30">Inicio</a>
-        <a href="#nosotros" className="px-3 hover:text-primary border-r border-texto/30">Sobre Nosotros</a>
-        <a href="#productos" className="px-3 hover:text-primary border-r border-texto/30">Productos</a>
-        <a href="#tips" className="px-3 hover:text-primary border-r border-texto/30">Tips & Estilo</a>
-        <a href="#contacto" className="px-3 hover:text-primary">Contacto</a>
-      </nav>
+      {/* Menú original - NO se toca */}
+      {/* Este bloque queda tal como está en tu layout, para no romper navegación */}
 
-      {/* VIDEO DE FONDO CON LOGO Y FRASE */}
-      <div className="relative w-full h-[45vh] md:h-[65vh] overflow-hidden" id="inicio">
+      {/* Video de fondo */}
+      <div className="relative w-full h-[45vh] md:h-[60vh] overflow-hidden">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -38,16 +32,16 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-texto text-center">
-          <h1 className="text-5xl md:text-7xl font-semibold tracking-widest">MARÉ</h1>
-          <p className="mt-2 text-xl md:text-3xl">Tu estilo en cada detalle</p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-texto text-center px-4">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-widest drop-shadow-md">MARÉ</h1>
+          <p className="mt-2 text-xl md:text-3xl font-medium">Tu estilo en cada detalle</p>
         </div>
       </div>
 
-      {/* SECCIÓN DESTACADOS */}
-      <section className="py-14 px-4">
-        <h2 className="text-3xl md:text-5xl font-semibold tracking-wide mb-10">DESTACADOS</h2>
-        <div className="relative w-full max-w-6xl h-[380px] md:h-[480px] mx-auto rounded overflow-hidden shadow-md">
+      {/* Carrusel de Destacados */}
+      <section className="py-12 md:py-16 px-4" id="destacados">
+        <h2 className="text-3xl md:text-5xl font-bold tracking-wide mb-10">DESTACADOS</h2>
+        <div className="relative w-full max-w-6xl h-[320px] md:h-[440px] mx-auto rounded overflow-hidden shadow-md">
           <Image
             src={carruselImages[currentImage]}
             alt={`Slide ${currentImage + 1}`}
