@@ -20,8 +20,13 @@ export default function Home() {
 
   return (
     <div className="text-center bg-fondo text-texto">
+      {/* Logo de MARÉ arriba del video */}
+      <div className="pt-8">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-wide">MARÉ</h1>
+      </div>
+
       {/* Video de fondo */}
-      <div className="relative w-full aspect-video overflow-hidden">
+      <div className="relative w-full aspect-video overflow-hidden mt-6">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -29,10 +34,11 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold">MARÉ</h1>
-          <p className="text-lg md:text-2xl mt-2">Tu estilo en cada detalle</p>
-        </div>
+      </div>
+
+      {/* Frase institucional */}
+      <div className="mt-6 px-4">
+        <p className="text-lg md:text-2xl">Tu estilo en cada detalle</p>
       </div>
 
       {/* Carrusel de Destacados */}
