@@ -17,7 +17,7 @@ export default function Productos() {
           <p>{prod.Descripción}</p>
           <a
             className="underline"
-            href={`https://wa.me/549123456789?text=Hola,%20me%20interesa%20este%20producto:%20${prod.Código}`}
+            href={`https://wa.me/59897998999?text=Hola,%20me%20interesa%20este%20producto:%20${prod.Código}`}
           >
             Me interesa
           </a>
