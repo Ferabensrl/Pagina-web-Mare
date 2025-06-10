@@ -20,15 +20,10 @@ export default function Home() {
   return (
     <div className="text-center">
 
-      {/* Logo PNG de MARÉ */}
-      <div className="w-full flex justify-center pt-6">
-        <Image
-          src="/logo-mare.png" // Asegurate que esté en la carpeta "public"
-          alt="MARÉ Logo"
-          width={200}
-          height={80}
-        />
-      </div>
+      {/* Logo escrito de MARÉ en fuente similar */}
+      <h1 className="text-5xl md:text-6xl font-serif text-[#7c5c47] pt-6 tracking-wide">
+        MARÉ
+      </h1>
 
       {/* Video de fondo */}
       <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-4">
