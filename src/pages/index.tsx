@@ -19,8 +19,9 @@ export default function Home() {
 
   return (
     <div className="text-center font-playfair bg-fondo min-h-screen text-texto">
-      {/* MENÚ SUPERIOR ÚNICO */}
-      <nav className="w-full flex justify-center flex-wrap gap-6 py-5 bg-fondo shadow-sm text-lg md:text-xl font-semibold border-b border-texto/20">
+
+      {/* MENÚ SUPERIOR FUNCIONAL Y ESTILIZADO */}
+      <nav className="w-full flex justify-center gap-6 py-4 bg-fondo shadow-sm text-lg md:text-xl font-semibold border-b border-texto/20">
         <a href="#inicio" className="px-3 hover:text-primary border-r border-texto/30">Inicio</a>
         <a href="#nosotros" className="px-3 hover:text-primary border-r border-texto/30">Sobre Nosotros</a>
         <a href="#productos" className="px-3 hover:text-primary border-r border-texto/30">Productos</a>
@@ -28,8 +29,8 @@ export default function Home() {
         <a href="#contacto" className="px-3 hover:text-primary">Contacto</a>
       </nav>
 
-      {/* VIDEO CON LOGO */}
-      <div className="relative w-full h-[45vh] md:h-[65vh] overflow-hidden">
+      {/* VIDEO DE FONDO CON LOGO Y FRASE */}
+      <div className="relative w-full h-[45vh] md:h-[65vh] overflow-hidden" id="inicio">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -37,19 +38,13 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-texto">
-          <Image
-            src="/logo-mare.png"
-            alt="MARÉ"
-            width={300}
-            height={150}
-            className="mb-3"
-          />
-          <p className="text-xl md:text-3xl">Tu estilo en cada detalle</p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-texto text-center">
+          <h1 className="text-5xl md:text-7xl font-semibold tracking-widest">MARÉ</h1>
+          <p className="mt-2 text-xl md:text-3xl">Tu estilo en cada detalle</p>
         </div>
       </div>
 
-      {/* DESTACADOS */}
+      {/* SECCIÓN DESTACADOS */}
       <section className="py-14 px-4">
         <h2 className="text-3xl md:text-5xl font-semibold tracking-wide mb-10">DESTACADOS</h2>
         <div className="relative w-full max-w-6xl h-[380px] md:h-[480px] mx-auto rounded overflow-hidden shadow-md">
