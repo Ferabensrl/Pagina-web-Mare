@@ -14,14 +14,22 @@ export default function Home() {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % carruselImages.length);
     }, 5000); // cambia cada 5 segundos
-
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="text-center">
-      {/* Video de fondo */}
-      <div className="relative w-full h-96 overflow-hidden">
+    <div className="text-center font-playfair bg-fondo min-h-screen text-texto">
+      {/* Menú superior fijo */}
+      <nav className="w-full flex justify-center gap-6 py-4 bg-fondo shadow-sm text-lg font-semibold">
+        <a href="#inicio" className="hover:underline">Inicio</a>
+        <a href="#nosotros" className="hover:underline">Sobre Nosotros</a>
+        <a href="#productos" className="hover:underline">Productos</a>
+        <a href="#tips" className="hover:underline">Tips & Estilo</a>
+        <a href="#contacto" className="hover:underline">Contacto</a>
+      </nav>
+
+      {/* Video institucional */}
+      <div className="relative w-full h-[40vh] md:h-[60vh] overflow-hidden">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
@@ -29,24 +37,26 @@ export default function Home() {
           loop
           muted
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-4xl text-texto">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-3xl md:text-5xl text-texto">
           <Image src="/logo-mare.png" alt="MARÉ" width={200} height={100} />
-          <p>Tu estilo en cada detalle</p>
+          <p className="mt-2">Tu estilo en cada detalle</p>
         </div>
       </div>
 
-      {/* Título y carrusel */}
-      <div className="pt-16 pb-4">
-        <h2 className="text-3xl font-semibold mb-10 text-texto">Destacados</h2>
-        <div className="relative w-full max-w-5xl h-[600px] mx-auto rounded overflow-hidden shadow-lg">
+      {/* Sección de destacados */}
+      <section className="py-10 px-4">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">DESTACADOS</h2>
+        <div className="relative w-full max-w-6xl h-[400px] md:h-[500px] mx-auto rounded overflow-hidden shadow-md">
           <Image
             src={carruselImages[currentImage]}
             alt={`Slide ${currentImage + 1}`}
-            layout="fill"
-            objectFit="cover"
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 }
