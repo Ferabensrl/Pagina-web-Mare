@@ -20,13 +20,13 @@ export default function Home() {
   return (
     <div className="text-center">
 
-      {/* Logo escrito de MARÉ en fuente similar */}
-      <h1 className="text-5xl md:text-6xl font-serif text-[#7c5c47] pt-6 tracking-wide">
+      {/* Nombre de la marca con estilo */}
+      <h1 className="text-[42px] md:text-[64px] tracking-[0.25em] text-[#7c5c47] font-semibold mt-6 mb-2">
         MARÉ
       </h1>
 
-      {/* Video de fondo */}
-      <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-4">
+      {/* Video institucional */}
+      <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden mt-2">
         <video
           className="object-cover w-full h-full"
           src="/video-institucional.mp4"
